@@ -25,6 +25,12 @@
                         <!--这里放描述-->
                     </div>
                 </div>
+                <div class="item">
+                    <img src="dist/img/banner.jpg" alt="...">
+                    <div class="carousel-caption">
+                        <!--这里放描述-->
+                    </div>
+                </div>
             </div>
 
             <!-- Controls -->
@@ -58,8 +64,22 @@
     <div class="more-info text-center">
         <button class="btn-more">更多公寓信息</button>
     </div>
+    <div class="more-house">
 
+    </div>
     <script src="dist/js/jquery-1.12.0.min.js"></script>
     <script src="dist/js/bootstrap.min.js"></script>
+    <script>
+        var setMoreHouseHeight = function(){
+            var $w = $(window).width();
+            var $h = 1000/1920 * $w;
+            $('div.more-house').css({height: $h});
+        };
+
+        $(window).resize(function() {
+            setMoreHouseHeight();
+        });
+        setMoreHouseHeight();
+    </script>
 </body>
 </html>
