@@ -7,7 +7,6 @@ body{
 }
 .previous-img {
     position: absolute;
-    top: 505px;
     left: 30px;
     width: 50px;
     height: 100px;
@@ -17,7 +16,6 @@ body{
 
 .next-img {
     position: absolute;
-    top: 505px;
     right: 30px;
     width: 50px;
     height: 100px;
