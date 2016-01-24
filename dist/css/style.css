@@ -99,7 +99,7 @@ img.img-detail {
     width: 20%;
 }
 
-.thumbnail {
+a.thumbnail {
     display: block;
     padding: 0px;
     margin-bottom: 20px;
@@ -110,6 +110,10 @@ img.img-detail {
     -webkit-transition: border .2s ease-in-out;
     -o-transition: border .2s ease-in-out;
     transition: border .2s ease-in-out;
+}
+
+a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
+    border-color: #fff;
 }
 
 div.jianzi {
@@ -137,7 +141,6 @@ footer{
 .about {
     padding-left: 44px;
     font-size:18px;
-    background: url("../img/about.png") no-repeat;
-    background-position: -5px;
+    background: url("../img/about.png") no-repeat -5px -10px;
 
 }
