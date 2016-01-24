@@ -62,3 +62,7 @@ div.user a.register {
     padding-left: 50px;
     background: url("../img/register.png") no-repeat 9px -9px;
 }
+
+.image {
+    width: 100%;
+}
