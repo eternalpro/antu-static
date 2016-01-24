@@ -1,5 +1,7 @@
 @charset "UTF-8";
-
+body{
+    font-family: "微软雅黑";
+}
 .previous-img {
     position: absolute;
     top: 505px;
@@ -41,7 +43,6 @@ div.user {
     right: 30px;
 }
 div.user a{
-    font-family: "微软雅黑";
     font-size: 18px;
     color: #5F5F5F;
     background-size: 44px 44px;
@@ -65,4 +66,19 @@ div.user a.register {
 
 .image {
     width: 100%;
+}
+
+.more-info {
+    background: #323232;
+    height: 70px;
+}
+
+button.btn-more {
+    margin-top: 20px;
+    width: 180px;
+    height: 30px;
+    border:1px solid #dcdcdc;
+    font-size: 16px;
+    color: #dcdcdc;
+    background: #323232;
 }
