@@ -97,23 +97,48 @@ img.img-detail {
 
 .col-md-2-5 {
     width: 20%;
+    height: 340px;
 }
 
 a.thumbnail {
-    display: block;
+    min-width: 120px;
+    display: table-cell;
     padding: 0px;
     margin-bottom: 20px;
     line-height: 1.42857143;
     background-color: #fff;
-    border: 2px solid #ff7600;
     border-radius: 0px;
+    border:1px solid #ff7600;
     -webkit-transition: border .2s ease-in-out;
     -o-transition: border .2s ease-in-out;
     transition: border .2s ease-in-out;
+    opacity:0.5;
 }
 
 a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
-    border-color: #fff;
+    border: 2px solid #ff7600;
+    opacity: 0.8;
+}
+
+.thumb-detail {
+    left: 50%;
+    margin-left: -50px;
+    width: 100px;
+    vertical-align: middle;
+    color: #fff;
+    position: absolute;
+    top: 80px;
+}
+
+.thumb-title {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.thumb-detail button{
+    font-size:12px;
+    border: 1px solid #dcdcdc;
+    background: rgba(221, 221, 221, 0);
 }
 
 div.jianzi {
