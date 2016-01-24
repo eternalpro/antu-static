@@ -65,21 +65,58 @@
         <button class="btn-more">更多公寓信息</button>
     </div>
     <div class="more-house">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="jianzi">
+                    这才是公寓
+                </div>
+            </div>
 
+            <div class="col-xs-6 col-md-2-5">
+                <a href="#" class="thumbnail">
+                    <img src="dist/img/detail_1.jpg" alt="...">
+                </a>
+            </div>
+            <div class="col-xs-6 col-md-2-5">
+                <a href="#" class="thumbnail">
+                    <img src="dist/img/detail_2.jpg" alt="...">
+                </a>
+            </div>
+            <div class="col-xs-6 col-md-2-5">
+                <a href="#" class="thumbnail">
+                    <img src="dist/img/detail_3.png." alt="...">
+                </a>
+            </div>
+            <div class="col-xs-6 col-md-2-5">
+                <a href="#" class="thumbnail">
+                    <img src="dist/img/detail_4.jpg" alt="...">
+                </a>
+            </div>
+            <div class="col-xs-6 col-md-2-5">
+                <a href="#" class="thumbnail">
+                    <img src="dist/img/detail_5.jpg" alt="...">
+                </a>
+            </div>
+        </div>
     </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="pull-left">
+                        &copy; Copyright 2012-2015 www.myantu.com 安途短租 版权所有
+                        不得转载
+                        京ICP备12039479号-2
+                    </div>
+                    <div class="pull-right about">
+                        关于我们 400-000-1030
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="dist/js/jquery-1.12.0.min.js"></script>
     <script src="dist/js/bootstrap.min.js"></script>
-    <script>
-        var setMoreHouseHeight = function(){
-            var $w = $(window).width();
-            var $h = 1000/1920 * $w;
-            $('div.more-house').css({height: $h});
-        };
-
-        $(window).resize(function() {
-            setMoreHouseHeight();
-        });
-        setMoreHouseHeight();
-    </script>
+    <script src="dist/js/app.js"></script>
 </body>
 </html>
