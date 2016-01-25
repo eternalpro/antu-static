@@ -86,7 +86,7 @@ button.btn-more {
 
 .more-house {
     background: url("../img/page.jpg") no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 
 img.img-detail {
@@ -99,17 +99,9 @@ img.img-detail {
 }
 
 a.thumbnail {
-    min-width: 120px;
-    display: table-cell;
-    padding: 0px;
-    margin-bottom: 20px;
-    line-height: 1.42857143;
-    background-color: #fff;
     border-radius: 0px;
     border:1px solid #ff7600;
-    -webkit-transition: border .2s ease-in-out;
-    -o-transition: border .2s ease-in-out;
-    transition: border .2s ease-in-out;
+    padding: 0px;
     opacity:0.5;
 }
 
@@ -155,9 +147,11 @@ div.container{
 }
 
 footer{
+    margin-top: -5px;
+    border-top: 1px solid #646464;
     color: #dcdcdc;
     font-size:13px;
-    padding: 10px 0px 30px 0px;
+    padding: 30px 0px 30px 0px;
     background: #323232;
 }
 
